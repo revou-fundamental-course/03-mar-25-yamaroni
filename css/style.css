@@ -27,8 +27,22 @@ nav>a {
 }
 
 .banner-img {
-    border: 1px solid;
+    background-position: center;
+    background-size: cover;
     height: 500px;
+}
+
+.banner-1 {
+    /* Local Image */
+    background-image: url(../assets/1.jpg);
+}
+
+.banner-2 {
+    background-image: url(https://picsum.photos/350);
+}
+
+.banner-3 {
+    background-image: url(https://picsum.photos/375);
 }
 
 .our-profile-content {
@@ -54,4 +68,11 @@ nav>a {
 
 footer {
     text-align: center;
+}
+
+/* Responsive */
+@media only screen and (max-width: 480px) {
+    .main-header {
+        flex-direction: column;
+    }
 }

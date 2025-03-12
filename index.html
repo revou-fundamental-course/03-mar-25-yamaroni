@@ -39,7 +39,9 @@
             </header>
 
             <!-- Banner Autoslide -->
-            <div class="banner-img"></div>
+            <div class="banner-img banner-1"></div>
+            <div class="banner-img banner-2"></div>
+            <div class="banner-img banner-3"></div>
         </section>
 
         <hr />
@@ -76,7 +78,12 @@
 
             <!-- Message Us Content -->
             <div class="message-us-content">
-                <p>Lorem Ipsum Dolor Sit Amet Adipiscing...</p>
+                <form action="">
+                    <label for="name-input">Name:</label>
+                    <input type="text" id="name-input" name="name" placeholder="Your Name" required>
+
+                    <button type="button" onclick="validateForm()">Submit</button>
+                </form>
             </div>
         </section>
     </main>
@@ -85,6 +92,9 @@
     <footer>
         <p>&copy; 2021 Portfolio Yama</p>
     </footer>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
 </body>
 
 </html>
